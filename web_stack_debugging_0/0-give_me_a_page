@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# script for restarting http service
-sudo service apache2 restart
+# Start Apache so as to return a
+# page conatining Hello Holberton
+service apache2 start
